@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7e98ae31-dc97-4b7b-acfd-b944a12ca452": {
+      "ProjectGuid": "7e98ae31-dc97-4b7b-acfd-b944a12ca452",
+      "DisplayName": "AppointmentScheudling",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
