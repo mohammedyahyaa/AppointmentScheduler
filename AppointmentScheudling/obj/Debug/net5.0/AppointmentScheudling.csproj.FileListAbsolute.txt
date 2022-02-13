@@ -154,3 +154,10 @@ C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debu
 C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\obj\Debug\net5.0\Razor\Views\Appointment\Index.cshtml.g.cs
 C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\obj\Debug\net5.0\Razor\Views\Shared\_AddEditAppointment.cshtml.g.cs
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debug\net5.0\AppointmentScheudling.StaticWebAssets.xml
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debug\net5.0\Mailjet.Client.dll
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\obj\Debug\net5.0\AppointmentScheudling.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\muham\source\repos\AppointmentScheudling\AppointmentScheudling\obj\Debug\net5.0\staticwebassets\AppointmentScheudling.StaticWebAssets.xml

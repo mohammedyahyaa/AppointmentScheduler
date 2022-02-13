@@ -1,5 +1,4 @@
 ﻿a.navbar-brand {
-   
     white-space: normal;
     text-align: center;
     word-break: break-all;
@@ -29,7 +28,6 @@ html {
 }
 
 @media (min-width: 768px) {
- 
     html {
         font-size: 16px;
     }
@@ -48,7 +46,6 @@ html {
 }
 
 button.accept-policy {
-
     font-size: 1rem;
     line-height: inherit;
 }
@@ -58,7 +55,6 @@ button.accept-policy {
 html {
     position: relative;
     min-height: 100%;
-  
 }
 
 body {
@@ -67,7 +63,6 @@ body {
 }
 
 .footer {
-
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -162,8 +157,3 @@ body {
 /* Show the indicator (dot/circle) when checked */
 .radio-container input:checked ~ .checkmark:after {
     display: block;
-}
-
-#ul_top_hypers li {
-    display: inline;
-}

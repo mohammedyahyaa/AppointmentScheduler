@@ -6,6 +6,7 @@ using AppointmentScheduling.Models;
 using System.Threading.Tasks;
 using AppointmentScheduling.Utility;
 using AppointmentScheudling.Models.ViewModels;
+using Microsoft.AspNetCore.Http;
 
 namespace AppointmentScheudling.Controllers
 {
@@ -40,6 +41,8 @@ namespace AppointmentScheudling.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
+                    var user = await _userManager.FindByNameAsync(model.Email);
+                    HttpContext.Session.SetString("ssuserName", user.Name);
                     return RedirectToAction("Index", "Appointment");
 
                 }
@@ -76,9 +79,17 @@ namespace AppointmentScheudling.Controllers
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, model.RoleName);
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    if (!User.IsInRole(Helper.Admin))
+                    {
+                        await _signInManager.SignInAsync(user, isPersistent: false);
+                    }
+                    else
+                    {
+                        TempData["newAdminSignUp"] = user.Name;
+                    }
+                    return RedirectToAction("Index", "Appointment");
                 }
+
 
                 foreach (var error in result.Errors)
                 {
