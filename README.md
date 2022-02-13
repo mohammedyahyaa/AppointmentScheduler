@@ -10,3 +10,6 @@ C# project to perform MVC pattern , CRUD operations , Actions  in .NET.
 -Notify JS 
 -Mail jet Email
 -Azure Deployment
+
+to watch project Demo 
+https://www.linkedin.com/feed/update/urn:li:ugcPost:6898753704884084736/
